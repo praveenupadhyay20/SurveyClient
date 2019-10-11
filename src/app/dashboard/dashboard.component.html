@@ -1,0 +1,57 @@
+<div style="padding-top: 15px !important;">
+        <p>Welcome back, {{username}}!</p>
+</div>
+<div>    
+    <div class="row dashboardcount">
+        <div class="col-sm-3">Open
+            <h4>0</h4>
+        </div>
+        <div class="col-sm-3">Closed
+                <h4>0</h4>
+        </div>
+        <div class="col-sm-3">Total Response
+                <h4>0</h4>
+        </div>
+    </div>
+    <div>
+        <div style = "margin-top:30px;">
+        <span>Recent Surveys</span>
+        <a href="#" style="margin-left: 60%;">Manage Surveys</a>
+        </div>
+        <div class="row recentsurvey">
+            <div class="col-sm-8">
+                    <h6>First Survery</h6>
+                    <span style="font-size: 12px;">Created on:10/09/2019</span>
+                    <span> | </span>
+                    <span style="font-size: 12px;">Last Date:20/09/2019</span>
+            </div>
+            <div class="col-sm-2" style="text-align: center;">
+                    <ul>Collectors</ul>
+                    <ul>100</ul>
+            </div>
+            <div class="col-sm-1 " style="text-align: center;">
+                    <ul>Questions</ul>
+                    <ul>100</ul>
+            </div>
+        </div>
+        <div class="row recentsurvey">
+                <div class="col-sm-8">
+                        <h6>Second Survery</h6>
+                        <span style="font-size: 12px;">Created on:10/09/2019</span>
+                        <span> | </span>
+                        <span style="font-size: 12px;">Last Date:20/09/2019</span>
+                </div>
+                <div class="col-sm-2" style="text-align: center;">
+                        <ul>Collectors</ul>
+                        <ul>100</ul>
+                </div>
+                <div class="col-sm-1 " style="text-align: center;">
+                        <ul>Questions</ul>
+                        <ul>100</ul>
+                </div>
+            </div>
+            <button type="submit" style="float:left; margin-left: 10px;margin-top: 10px;" class="btn btn-outline-success" 
+            (click) = "OnSurveyCreate()">CREATE SURVEY</button>
+    </div>                    
+</div>
+
